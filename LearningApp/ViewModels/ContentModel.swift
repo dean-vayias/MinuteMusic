@@ -256,4 +256,3 @@ class ContentModel: ObservableObject {
         return resultString
     }
 }
-
