@@ -2,7 +2,7 @@
 //  HomeViewRow.swift
 //  LearningApp
 //
-//  Created by Christopher Ching on 2021-03-11.
+//  Created by Dean Vayias on 4/23/23.
 //
 
 import SwiftUI
