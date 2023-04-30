@@ -25,8 +25,7 @@ class ContentModel: ObservableObject {
     var currentQuestionIndex = 0
     
     // Current lesson explanation
-    @Published var codeText = NSAttributedString()
-    var styleData: Data?
+    @Published var codeText = String()
     
     // Current selected content and test
     @Published var currentContentSelected:Int?
@@ -65,21 +64,6 @@ class ContentModel: ObservableObject {
             print("Couldn't parse local data")
         }
         
-        // Parse the style data
-        let styleUrl = Bundle.main.url(forResource: "style", withExtension: "html")
-        
-        do {
-            
-            // Read the file into a data object
-            let styleData = try Data(contentsOf: styleUrl!)
-            
-            self.styleData = styleData
-        }
-        catch {
-            // Log error
-            print("Couldn't parse style data")
-        }
-        
     }
     
     func getRemoteData() {
@@ -112,7 +96,7 @@ class ContentModel: ObservableObject {
             do {
                 // Create json decoder
                 let decoder = JSONDecoder()
-            
+                
                 // Decode
                 let modules = try decoder.decode([Module].self, from: data!)
                 
@@ -141,7 +125,7 @@ class ContentModel: ObservableObject {
         for index in 0..<modules.count {
             
             if modules[index].id == moduleid {
-            
+                
                 // Found the matching module
                 currentModuleIndex = index
                 break
@@ -164,7 +148,6 @@ class ContentModel: ObservableObject {
         
         // Set the current lesson
         currentLesson = currentModule!.content.lessons[currentLessonIndex]
-        codeText = addStyling(currentLesson!.explanation)
     }
     
     func nextLesson() {
@@ -177,7 +160,6 @@ class ContentModel: ObservableObject {
             
             // Set the current lesson property
             currentLesson = currentModule!.content.lessons[currentLessonIndex]
-            codeText = addStyling(currentLesson!.explanation)
         }
         else {
             // Reset the lesson state
@@ -206,9 +188,6 @@ class ContentModel: ObservableObject {
         // If there are questions, set the current question to the first one
         if currentModule?.test.questions.count ?? 0  > 0 {
             currentQuestion = currentModule!.test.questions[currentQuestionIndex]
-            
-            // Set the question content
-            codeText = addStyling(currentQuestion!.content)
         }
     }
     
@@ -222,7 +201,6 @@ class ContentModel: ObservableObject {
             
             // Set the current question
             currentQuestion = currentModule!.test.questions[currentQuestionIndex]
-            codeText = addStyling(currentQuestion!.content)
         }
         else {
             // If not, then reset the properties
@@ -230,29 +208,5 @@ class ContentModel: ObservableObject {
             currentQuestion = nil
         }
         
-    }
-    
-    // MARK: - Code Styling
-    
-    private func addStyling(_ htmlString: String) -> NSAttributedString {
-        
-        var resultString = NSAttributedString()
-        var data = Data()
-        
-        // Add the styling data
-        if styleData != nil {
-            data.append(styleData!)
-        }
-        
-        // Add the html data
-        data.append(Data(htmlString.utf8))
-        
-        // Convert to attributed string
-        if let attributedString = try? NSAttributedString(data: data, options: [.documentType: NSAttributedString.DocumentType.html], documentAttributes: nil) {
-            
-            resultString = attributedString
-        }
-        
-        return resultString
     }
 }
