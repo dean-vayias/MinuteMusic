@@ -19,6 +19,7 @@
 		50071CAC29FC820700737366 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50071CAB29FC820700737366 /* Constants.swift */; };
 		50071CAE29FDC05800737366 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50071CAD29FDC05800737366 /* CodeTextView.swift */; };
 		50071CB029FF1A1200737366 /* RectangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50071CAF29FF1A1200737366 /* RectangleCard.swift */; };
+		50071CB229FF398800737366 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50071CB129FF398800737366 /* TestView.swift */; };
 		50FE063729F87BE000217450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE063629F87BE000217450 /* ContentView.swift */; };
 		50FE063929F8DD4B00217450 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE063829F8DD4B00217450 /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		50071CAB29FC820700737366 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50071CAD29FDC05800737366 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		50071CAF29FF1A1200737366 /* RectangleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleCard.swift; sourceTree = "<group>"; };
+		50071CB129FF398800737366 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		50FE063629F87BE000217450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50FE063829F8DD4B00217450 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				50FE063629F87BE000217450 /* ContentView.swift */,
 				50FE063829F8DD4B00217450 /* ContentViewRow.swift */,
 				50071CA929FC78AB00737366 /* ContentDetailView.swift */,
+				50071CB129FF398800737366 /* TestView.swift */,
 				50071CAD29FDC05800737366 /* CodeTextView.swift */,
 				50071CAF29FF1A1200737366 /* RectangleCard.swift */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50071CB229FF398800737366 /* TestView.swift in Sources */,
 				50060B6B29E79E85007DC49C /* HomeView.swift in Sources */,
 				50060B8729F62447007DC49C /* HomeViewRow.swift in Sources */,
 				50FE063729F87BE000217450 /* ContentView.swift in Sources */,
