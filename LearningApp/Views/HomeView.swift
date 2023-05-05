@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  LearningApp
 //
-//  Created by Dean Vayias on 4/12/23.
+//  Created by Dean Vayias on 2023-04-23.
 //
 
 import SwiftUI
@@ -88,4 +88,3 @@ struct HomeView_Previews: PreviewProvider {
             .environmentObject(ContentModel())
     }
 }
-
