@@ -74,9 +74,3 @@ struct ContentDetailView: View {
             .navigationBarTitle(lesson?.title ?? "")
     }
 }
-
-struct ContentDetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentDetailView()
-    }
-}

@@ -9,7 +9,6 @@ import Foundation
 
 struct Constants {
     
-    static var videoHostUrl = "https://codewithchris.github.io/learningJSON/"
+    static var videoHostUrl = "https://dean-vayias.github.io/MinuteMusic/"
     
 }
-//replace ^ with link to own repository with video, then add my file names in JSON

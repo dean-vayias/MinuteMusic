@@ -26,12 +26,10 @@ struct TestView: View {
                 // Question number
                 Text("Question \(model.currentQuestionIndex + 1) of \(model.currentModule?.test.questions.count ?? 0)")
                     .padding(.leading, 20)
-                
                 Spacer()
-                
                 // Question
                 Text(model.currentQuestion!.content)
-                    .padding(.leading, 20)
+                    .padding(.horizontal, 20)
                     .font(.system(size: 25))
                 
                 // Answers
@@ -179,8 +177,3 @@ struct TestView: View {
     }
 }
 
-struct TestView_Previews: PreviewProvider {
-    static var previews: some View {
-        TestView()
-    }
-}
