@@ -34,8 +34,7 @@ class ContentModel: ObservableObject {
     
     init() {
         
-        // Parse local included json data
-        getLocalData()
+        
         
         // Download remote json file and parse data
         getRemoteData()
@@ -69,7 +68,7 @@ class ContentModel: ObservableObject {
     func getRemoteData() {
         
         // String path
-        let urlString = "https://codewithchris.github.io/learningapp-data/data2.json"
+        let urlString = "https://dean-vayias.github.io/MinuteMusic/data2.json"
         
         // Create a url object
         let url = URL(string: urlString)
