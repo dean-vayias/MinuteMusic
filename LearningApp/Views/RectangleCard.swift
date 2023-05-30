@@ -2,7 +2,7 @@
 //  RectangleCard.swift
 //  LearningApp
 //
-//  Created by Dean Vayias on 4/30/23.
+//  Created by Dean Vayias on 4/29/23.
 //
 
 import SwiftUI
@@ -18,11 +18,5 @@ struct RectangleCard: View {
             .cornerRadius(10)
             .shadow(radius:5)
         
-    }
-}
-
-struct RectangleCard_Previews: PreviewProvider {
-    static var previews: some View {
-        RectangleCard()
     }
 }

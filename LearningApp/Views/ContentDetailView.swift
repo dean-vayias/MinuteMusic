@@ -2,7 +2,7 @@
 //  ContentDetailView.swift
 //  LearningApp
 //
-//  Created by Dean Vayias on 4/28/23.
+//  Created by Dean Vayias on 4/27/23.
 //
 
 import SwiftUI
