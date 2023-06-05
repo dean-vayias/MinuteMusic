@@ -15,7 +15,7 @@ struct HomeView: View {
         
         NavigationView {
             VStack (alignment: .leading) {
-                Text("What do you want to do today?")
+                Text("This won't take too long!")
                     .padding(.leading, 20)
                 
                 ScrollView {
@@ -66,7 +66,7 @@ struct HomeView: View {
                     
                 }
             }
-            .navigationTitle("Get Started")
+            .navigationTitle("Start Learning")
             .onChange(of: model.currentContentSelected) { changedValue in
                 if changedValue == nil {
                     model.currentModule = nil
