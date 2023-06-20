@@ -43,8 +43,8 @@
 			},
 			{
 				"id": 5,
-				"title": "State and Data Flow",
-				"video": "SwiftUI%20trimmed.mp4",
+				"title": "Dynamics and Articulation",
+				"video": "dynamicsandarticulation.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>SwiftUI offers a declarative approach to user interface design. As you compose a hierarchy of views, you also indicate data dependencies for the views. When the data changes, either due to an external event or because of an action taken by the user, SwiftUI automatically updates the affected parts of the interface. As a result, the framework automatically performs most of the work traditionally done by view controllers.</p><p>The framework provides tools, like state variables and bindings, for connecting your app's data to the user interface. These tools help you maintain a single source of truth for every piece of data in your app, in part by reducing the amount of glue logic you write.</p>"
 			},
