@@ -1,9 +1,9 @@
 [{
 	"id": 1,
-	"category": "SwiftUI",
+	"category": "Reading Music",
 	"content": {
 		"id": 0,
-		"image": "swiftUI",
+		"image": "ReadingMusic",
 		"time": "2 hours",
 		"description": "Discover the innovative and simple way to build apps on Apple platforms, especially iOS.",
 		"lessons": [{
@@ -50,8 +50,8 @@
 			},
 			{
 				"id": 6,
-				"title": "Property Wrappers",
-				"video": "SwiftUI%20trimmed.mp4",
+				"title": "Tempo and Other Terminology",
+				"video": "tempootherterm.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>SwiftUI implements many data management types, like State and Binding, as Swift property wrappers. Apply a property wrapper by adding an attribute with the wrapper's name to a property's declaration. The property gains the behavior specified by the wrapper. The state and data flow property wrappers in SwiftUI watch for changes in your data, and automatically update affected views as needed. When you refer directly to the property in your code, you access the wrapped value. Alternatively, you can access a property wrapper's projected value by prefixing the property name with the dollar sign ($). SwiftUI state and data flow property wrappers always project a Binding, which is a two-way connection to the wrapped value, allowing another view to access and mutate a single source of truth.</p>"
 			},
@@ -73,9 +73,9 @@
 	},
 	"test": {
 		"id": 0,
-		"image": "swiftUI",
+		"image": "ReadingMusicTest",
 		"time": "30 minutes",
-		"description": "Test your knowledge of SwiftUI.",
+		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
 				"id": 0,
 				"content": "<p>Every SwiftUI app has exactly one scene to which contains a view hierarchy.</p>",
