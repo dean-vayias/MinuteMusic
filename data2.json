@@ -1,9 +1,9 @@
 [{
 	"id": 1,
-	"category": "SwiftUI",
+	"category": "Reading Music",
 	"content": {
 		"id": 0,
-		"image": "swiftUI",
+		"image": "ReadingMusic",
 		"time": "2 hours",
 		"description": "Discover the innovative and simple way to build apps on Apple platforms, especially iOS.",
 		"lessons": [{
@@ -73,9 +73,9 @@
 	},
 	"test": {
 		"id": 0,
-		"image": "swiftUI",
+		"image": "ReadingMusicTest",
 		"time": "30 minutes",
-		"description": "Test your knowledge of SwiftUI.",
+		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
 				"id": 0,
 				"content": "<p>Every SwiftUI app has exactly one scene to which contains a view hierarchy.</p>",
