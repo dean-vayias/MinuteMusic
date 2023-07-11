@@ -57,8 +57,8 @@
 			},
 			{
 				"id": 7,
-				"title": "Gestures",
-				"video": "SwiftUI%20trimmed.mp4",
+				"title": "Basic Rhythm Reading",
+				"video": "basicrhythmreading.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Respond to taps and gestures by adding gesture modifiers to your views. Create custom gestures from individual gestures using the simultaneously(with:), sequenced(before:), or exclusively(before:) modifiers, or combine gestures with keyboard modifiers using the modifiers(_:) modifier.</p>"
 			},
