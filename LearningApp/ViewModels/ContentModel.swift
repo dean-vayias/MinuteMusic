@@ -42,29 +42,6 @@ class ContentModel: ObservableObject {
     
     // MARK: - Data methods
     
-    func getLocalData() {
-        
-        // Get a url to the json file
-        let jsonUrl = Bundle.main.url(forResource: "data", withExtension: "json")
-        
-        do {
-            // Read the file into a data object
-            let jsonData = try Data(contentsOf: jsonUrl!)
-            
-            // Try to decode the json into an array of modules
-            let jsonDecoder = JSONDecoder()
-            let modules = try jsonDecoder.decode([Module].self, from: jsonData)
-            
-            // Assign parsed modules to modules property
-            self.modules = modules
-        }
-        catch {
-            // TODO log error
-            print("Couldn't parse local data")
-        }
-        
-    }
-    
     func getRemoteData() {
         
         // String path
