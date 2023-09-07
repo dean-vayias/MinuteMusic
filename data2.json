@@ -162,8 +162,8 @@
 		"description": "Discover the innovative and simple way to build apps on Apple platforms, especially iOS.",
 		"lessons": [{
 				"id": 0,
-				"title": "Staffs and Clefs",
-				"video": "staffsandclefs.mp4",
+				"title": "Music Groups",
+				"video": "musicgroups.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Declare your app by creating a structure that conforms to the App protocol and add one or more scenes to it. You can use built-in scenes, like WindowGroup, or you can compose custom scenes that conform to the Scene protocol. Scenes contain the view hierarchies that define the user interface of your app, and have a life cycle that the system manages.</p>"
 			},
