@@ -157,7 +157,7 @@
 	"category": "Find your Fit!",
 	"content": {
 		"id": 0,
-		"image": "FindYourFit",
+		"image": "FindyourFit",
 		"time": "2 hours",
 		"description": "Discover the innovative and simple way to build apps on Apple platforms, especially iOS.",
 		"lessons": [{
@@ -227,7 +227,7 @@
 	},
 	"test": {
 		"id": 0,
-		"image": "ReadingMusicTest",
+		"image": "FindyourFitTest",
 		"time": "30 minutes",
 		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
