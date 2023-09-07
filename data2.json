@@ -159,7 +159,7 @@
 		"id": 0,
 		"image": "FindyourFit",
 		"time": "2 hours",
-		"description": "Find out which music group you belong in and what instrument to play!",
+		"description": "Find out which music group you belong in, and what instrument to play!",
 		"lessons": [{
 				"id": 0,
 				"title": "Music Groups",
