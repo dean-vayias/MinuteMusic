@@ -169,8 +169,8 @@
 			},
 			{
 				"id": 1,
-				"title": "Pitch and Intervals",
-				"video": "pitchandintervals.mp4",
+				"title": "Introduction to Instruments",
+				"video": "introtoinstruments.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Views and controls are the visual building blocks of your app's user interface. Use them to present your app's content onscreen. Views represent text, images, shapes, custom drawings, and compositions of any and all of these together. Controls enable user interaction with consistent APIs that adapt to their platform and context. Combine views using containers that specify their visual relationships and hierarchy. Use methods called modifiers to customize the display, behavior, and interactivity of built-in views and those you create for your app.</p>"
 			},
