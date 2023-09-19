@@ -74,79 +74,112 @@
 	"test": {
 		"id": 0,
 		"image": "ReadingMusicTest",
-		"time": "30 minutes",
+		"time": "10 minutes",
 		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
 				"id": 0,
-				"content": "<p>Every SwiftUI app has exactly one scene to which contains a view hierarchy.</p>",
+				"content": "Which of the following are the two types of clefs?",
 				"correctIndex": 1,
 				"answers": [
-					"true",
-					"false"
+					"Symphonic and Bass",
+					"Treble and Bass",
+					"Symphonic and Treble",
+					"Double and Treble"
 				]
 			},
 			{
 				"id": 1,
-				"content": "<p>How can you customize the display and behaviour of a view in SwiftUI?</p>",
-				"correctIndex": 2,
+				"content": "Which of the following correctly lists the notes in the spaces of the treble clef?",
+				"correctIndex": 0,
 				"answers": [
-					"Change it in the storyboard",
-					"Conform it to the appropriate delegate protocol",
-					"Using modifiers",
-					"You can't"
+					"FACE",
+					"EGBDF",
+					"ACEG",
+					"GBDFA"
 				]
 			},
 			{
 				"id": 2,
-				"content": "<p>Which of the following allows you to display a table?</p>",
-				"correctIndex": 3,
+				"content": "Where do you look to find the number of beats in a measure?",
+				"correctIndex": 2,
 				"answers": [
-					"VStack",
-					"HStack",
-					"ZStack",
-					"List"
+					"Top number of key signature",
+					"Bottom number of key signature",
+					"Top number of time signature",
+					"Bottom number of time signature"
 				]
 			},
 			{
 				"id": 3,
-				"content": "<p>You can define custom paths to create shapes in SwiftUI.</p>",
+				"content": "Fill in the blank: Flats ____ the pitch of a note by a half step",
 				"correctIndex": 0,
 				"answers": [
-					"true",
-					"false"
+					"lower",
+					"raise"
 				]
 			},
 			{
 				"id": 4,
-				"content": "<p>Select the best answer.</p>",
-				"correctIndex": 3,
+				"content": "True or False: A half note gets 1 beat",
+				"correctIndex": 1,
 				"answers": [
-					"You can add SwiftUI views to a storyboard-based app using hosting controllers",
-					"You can add UIKit views to a SwiftUI project using representable objects",
-					"SwiftUI and UIKit are separate, and shouldn't be integrated",
-					"Answers 1 and 2"
+					"True",
+					"False"
 				]
 			},
 			{
 				"id": 5,
-				"content": "<p>In SwiftUI, interfaces are created:</p>",
+				"content": "A skip from C to A would be called which of the following?",
 				"correctIndex": 2,
 				"answers": [
-					"Procedurally",
-					"Dynamically",
-					"Declaratively",
-					"Eccentrically"
+					"Fourth",
+					"Fifth",
+					"Sixth",
+					"Seventh"
 				]
 			},
 			{
 				"id": 6,
-				"content": "<p>Prefixing a property wrapped property with $ will access its",
-				"correctIndex": 1,
+				"content": "Fill in the blank: A note with a dot above or below it should be played ____",
+				"correctIndex": 2,
 				"answers": [
-					"Wrapped value",
-					"Projected value",
-					"Financial value",
-					"That's invalid syntax"
+					"legato, or smooth/connected",
+					"loudly",
+					"staccato, or short/detached",
+					"softly"
+				]
+			},
+			{
+				"id": 7,
+				"content": "What tool is used to hear the tempo of a piece of music?",
+				"correctIndex": 0,
+				"answers": [
+					"Metronome",
+					"Valve",
+					"Slide",
+					"Tuner"
+				]
+			},
+			{
+				"id": 8,
+				"content": "How would you play a line of music with a forte dynamic marking in the first half, and then a piano dynamic in the second half?",
+				"correctIndex": 3,
+				"answers": [
+					"Softly, then loudly",
+					"Play the whole line loudly",
+					"Play the whole line softly",
+					"Loudly, then softly"
+				]
+			},
+			{
+				"id": 9,
+				"content": "Which of the following should you do before playing a line of music?",
+				"correctIndex": 3,
+				"answers": [
+					"Read the key signature",
+					"Read the time signature",
+					"Identify the tempo",
+					"All of the above"
 				]
 			}
 		]
@@ -159,7 +192,7 @@
 		"id": 0,
 		"image": "FindyourFit",
 		"time": "2 hours",
-		"description": "Find out which music group you belong in, and what instrument to play!",
+		"description": "Find out which music group you belong in, and which instrument to play!",
 		"lessons": [{
 				"id": 0,
 				"title": "Music Groups",
