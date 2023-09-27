@@ -209,8 +209,8 @@
 			},
 			{
 				"id": 2,
-				"title": "Note Duration",
-				"video": "noteduration.mp4",
+				"title": "Choosing an Instrument",
+				"video": "choosinganinstrument.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Use stacks and lists to lay out the views of your user interface. You can combine static views with views that are dynamically generated from collections of data. All container views update and adjust the positions of their children in response to changes in content or interface dimensions.</p>"
 			},
