@@ -223,8 +223,8 @@
 			},
 			{
 				"id": 4,
-				"title": "Key Signatures, Majors and Minors",
-				"video": "keysigsmajorsminors.mp4",
+				"title": "Finding your Chorale Voice",
+				"video": "findingyourchoralevoice.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Integrate SwiftUI with your app's existing content using:</p><ul><li><p>Hosting controllers to add AppKit, UIKit, or WatchKit views and view controllers to your SwiftUI interfaces. A hosting controller wraps the designated view or view controller and facilitates communication between the wrapped object and your SwiftUI views.</p></li><li><p>Representable objects to add SwiftUI views into your existing AppKit, UIKit, or WatchKit interfaces. A representable object wraps a set of SwiftUI views in a form that you can then add to your storyboard-based app.</p></li></ul>"
 			},
