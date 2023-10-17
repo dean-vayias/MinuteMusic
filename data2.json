@@ -251,8 +251,8 @@
 			},
 			{
 				"id": 8,
-				"title": "Intermediate Rhythm Reading",
-				"video": "intermediaterhythm.mp4",
+				"title": "Music Production",
+				"video": "musicproduction.mp4",
 				"duration": "15 minutes",
 				"explanation": "<p>Generate dynamic, interactive previews of your custom views. Xcode statically discovers types that conform to the PreviewProvider protocol in your app, and generates previews for each provider it discovers.</p>"
 			}
