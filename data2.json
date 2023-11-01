@@ -111,7 +111,7 @@
 			},
 			{
 				"id": 3,
-				"content": "Fill in the blank: Flats ____ the pitch of a note by a half step",
+				"content": "Fill in the blank: Flats ____ the pitch of a note by a half step.",
 				"correctIndex": 0,
 				"answers": [
 					"lower",
@@ -120,7 +120,7 @@
 			},
 			{
 				"id": 4,
-				"content": "A half note gets 1 beat in a time signature with a bottom number of 4",
+				"content": "A half note gets 1 beat in a time signature with a bottom number of 4.",
 				"correctIndex": 1,
 				"answers": [
 					"True",
@@ -140,7 +140,7 @@
 			},
 			{
 				"id": 6,
-				"content": "Fill in the blank: A note with a dot above or below it should be played ____",
+				"content": "Fill in the blank: A note with a dot above or below it should be played ____.",
 				"correctIndex": 2,
 				"answers": [
 					"legato, or smooth/connected",
@@ -296,7 +296,7 @@
 			},
 			{
 				"id": 3,
-				"content": "You need access to an instrument to play in a choir",
+				"content": "You need access to an instrument to play in a choir.",
 				"correctIndex": 1,
 				"answers": [
 					"true",
