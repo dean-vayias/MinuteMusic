@@ -120,7 +120,7 @@
 			},
 			{
 				"id": 4,
-				"content": "True or False: A half note gets 1 beat",
+				"content": "A half note gets 1 beat in a time signature with a bottom number of 4",
 				"correctIndex": 1,
 				"answers": [
 					"True",
