@@ -14,7 +14,7 @@ struct HomeView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
-                Text("THIS WON'T TAKE TOO LONG!")
+                Text("This won't take too long!")
                     .padding(.leading, 20)
                 ScrollView {
                     LazyVStack {
