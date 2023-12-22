@@ -20,6 +20,7 @@ struct GameView: View {
             VStack {
                 Spacer()
                 Image("logo")
+                Text("Hit the \"deal\" button and compare\n your total beat value with the\n opponent's - the greater value wins!").multilineTextAlignment(.center)
                 Spacer()
                 HStack {
                     Spacer()
