@@ -24,7 +24,7 @@ struct GameView: View {
                 Spacer()
                 Image("logo")
                 Text("Tap the \"DUEL\" button and compare\n your total beat value with the\n opponent's - the greater value wins!").multilineTextAlignment(.center)
-                Spacer()
+                Spacer().frame(height: 60)
                 HStack {
                     Spacer()
                     Image(playerCard)
@@ -32,7 +32,7 @@ struct GameView: View {
                     Image(cpuCard)
                     Spacer()
                 }
-                Spacer()
+                Spacer().frame(height: 60)
                 Button(action: {
                     // Update cards and score
                     playerCard = generateFileName()
@@ -50,13 +50,13 @@ struct GameView: View {
                 }, label: {
                     Image("dealbutton")
                 })
-                Spacer()
+                Spacer().frame(height: 75)
                 HStack {
                     Spacer()
                     VStack {
                         Text("Player")
                             .font(.headline)
-                            .padding(.bottom, 10.0)
+                            .padding(.bottom, 5.0)
                         Text(String(playerScore))
                             .font(.largeTitle)
                     }.foregroundColor(Color.black)
@@ -64,7 +64,7 @@ struct GameView: View {
                     VStack {
                         Text("CPU")
                             .font(.headline)
-                            .padding(.bottom, 10.0)
+                            .padding(.bottom, 5.0)
                         Text(String(cpuScore))
                             .font(.largeTitle)
                     }.foregroundColor(Color.black)
@@ -91,6 +91,7 @@ struct GameView: View {
         return nil
     }
 }
+
 
 
 
