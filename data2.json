@@ -4,7 +4,6 @@
 	"content": {
 		"id": 0,
 		"image": "ReadingMusic",
-		"time": "9 minutes",
 		"description": "Learn the basics of reading a piece of music.",
 		"lessons": [{
 				"id": 0,
@@ -74,7 +73,6 @@
 	"test": {
 		"id": 0,
 		"image": "ReadingMusicTest",
-		"time": "5 minutes",
 		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
 				"id": 0,
@@ -191,7 +189,6 @@
 	"content": {
 		"id": 0,
 		"image": "FindyourFit",
-		"time": "9 minutes",
 		"description": "Find out which music group you belong in, and which instrument to play!",
 		"lessons": [{
 				"id": 0,
@@ -261,7 +258,6 @@
 	"test": {
 		"id": 0,
 		"image": "FindyourFitTest",
-		"time": "5 minutes",
 		"description": "Test how well you understand different music groups and instruments.",
 		"questions": [{
 				"id": 0,
