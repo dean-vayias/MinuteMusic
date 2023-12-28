@@ -41,8 +41,7 @@ struct ContentViewRow: View {
                 
                 Text(lesson.title)
                     .bold()
-                
-                
+                    .multilineTextAlignment(.leading)
             }
             .padding()
         }
