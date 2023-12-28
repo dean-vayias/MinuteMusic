@@ -9,63 +9,54 @@
 				"id": 0,
 				"title": "Staffs and Clefs",
 				"video": "staffsandclefs.mp4",
-				"duration": "1 minute",
 				"explanation": "Gain an understanding of the staff (lines and spaces) and the role of treble and bass clefs in indicating pitch."
 			},
 			{
 				"id": 1,
 				"title": "Pitch and Intervals",
 				"video": "pitchandintervals.mp4",
-				"duration": "1 minute",
 				"explanation": "Learn the musical alphabet, and where each note lies on the staff."
 			},
 			{
 				"id": 2,
 				"title": "Note Duration",
 				"video": "noteduration.mp4",
-				"duration": "1 minute",
 				"explanation": "Learn about different note durations (whole notes, half notes, etc.), rests, and time signatures, which are essential for understanding rhythm in music."
 			},
 			{
 				"id": 3,
 				"title": "Steps and Skips",
 				"video": "stepsandskips.mp4",
-				"duration": "1 minute",
 				"explanation": "Learn the concepts of steps and skips and intervals (e.g., seconds, thirds) in music, helping you grasp the foundations of musical pitch."
 			},
 			{
 				"id": 4,
 				"title": "Key Signatures, Majors and Minors",
 				"video": "keysigsmajorsminors.mp4",
-				"duration": "1 minute",
 				"explanation": "Here, you'll explore major and minor keys, as well as how key signatures relate to scales, shaping the overall tonality and mood of a piece of music."
 			},
 			{
 				"id": 5,
 				"title": "Dynamics and Articulation",
 				"video": "dynamicsandarticulation.mp4",
-				"duration": "1 minute",
 				"explanation": "This topic delves into dynamics (soft, loud, gradual changes) and articulation marks (staccato, legato) to understand how musicians add expressiveness and character to their performances."
 			},
 			{
 				"id": 6,
 				"title": "Tempo and Other Terminology",
 				"video": "tempootherterm.mp4",
-				"duration": "1 minute",
 				"explanation": "Here, you'll learn common musical terms (e.g., tempo, BPM) and explore musical symbols and signs (e.g., repeat signs, fermata) to enhance your understanding of music theory and performance."
 			},
 			{
 				"id": 7,
 				"title": "Basic Rhythm Reading",
 				"video": "basicrhythmreading.mp4",
-				"duration": "1 minute",
 				"explanation": "Use the knowledge you've gained thus far by actually reading a basic rhythm together!"
 			},
 			{
 				"id": 8,
 				"title": "Intermediate Rhythm Reading",
 				"video": "intermediaterhythm.mp4",
-				"duration": "1 minute",
 				"explanation": "We'll read a rhythm that is a little more comprehensive together."
 			}
 		]
@@ -194,63 +185,54 @@
 				"id": 0,
 				"title": "Music Groups",
 				"video": "musicgroups.mp4",
-				"duration": "1 minute",
 				"explanation": "Explore different types of musical ensembles such as bands, orchestras, and choirs, and understand the collaborative nature of music performance."
 			},
 			{
 				"id": 1,
 				"title": "Introduction to Instruments",
 				"video": "introtoinstruments.mp4",
-				"duration": "1 minute",
 				"explanation": "Introduction to various instrument families, including strings, woodwinds, brass, and percussion, providing an overview of their unique sounds and roles."
 			},
 			{
 				"id": 2,
 				"title": "Choosing an Instrument",
 				"video": "choosinganinstrument.mp4",
-				"duration": "1 minute",
 				"explanation": "Explores factors to consider when selecting a musical instrument, including personal preference, sound, size, and physicality."
 			},
 			{
 				"id": 3,
 				"title": "Choral Singing",
 				"video": "choralsinging.mp4",
-				"duration": "1 minute",
 				"explanation": "Delves into the different voice parts (soprano, alto, tenor, bass) and emphasizes the importance of teamwork and harmony, and how to use your very own voice as an instrument."
 			},
 			{
 				"id": 4,
 				"title": "Finding Your Chorale Voice",
 				"video": "findingyourchoralevoice.mp4",
-				"duration": "1 minute",
 				"explanation": "Discover which of the four voice parts (soprano, alto, tenor, bass) best suits your singing ability in a chorale."
 			},
 			{
 				"id": 5,
 				"title": "Introduction to Percussion Instruments",
 				"video": "introtopercussion.mp4",
-				"duration": "1 minute",
 				"explanation": "Explore the world of percussion instruments, such as drums, xylophones, and marimbas, to understand how they create rhythm and beat."
 			},
 			{
 				"id": 6,
 				"title": "Ensemble vs Solo",
 				"video": "ensemblevssolo.mp4",
-				"duration": "1 minute",
 				"explanation": "Learn the differences between performing in an ensemble and as a soloist, and how personal preferences and musical inclinations play a role."
 			},
 			{
 				"id": 7,
 				"title": "Songwriting And Composition",
 				"video": "songwritingandcomp.mp4",
-				"duration": "1 minute",
 				"explanation": "Discover the art of creating music through songwriting and composition, focusing on the craft of expressing emotions and stories through lyrics, melodies, and arrangements."
 			},
 			{
 				"id": 8,
 				"title": "Music Production",
 				"video": "musicproduction.mp4",
-				"duration": "1 minute",
 				"explanation": "Explore the increasing accessibility of sound editing technologies and how they've made music production more popular. It also touches on electronically created music like EDM and the role of music producers and audio engineers."
 			}
 		]
