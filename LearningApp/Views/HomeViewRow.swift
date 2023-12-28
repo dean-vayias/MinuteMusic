@@ -13,7 +13,6 @@ struct HomeViewRow: View {
     var title: String
     var description: String
     var count: String
-    var time: String
     
     var body: some View {
         
@@ -60,13 +59,7 @@ struct HomeViewRow: View {
                             .font(Font.system(size: 10))
                         
                         Spacer()
-                        
-                        // Time
-                        Image(systemName: "clock")
-                            .resizable()
-                            .frame(width: 15, height: 15)
-                        Text(time)
-                            .font(Font.system(size: 10))
+                
                         
                     }
                 }
@@ -82,6 +75,6 @@ struct HomeViewRow: View {
 
 struct HomeViewRow_Previews: PreviewProvider {
     static var previews: some View {
-        HomeViewRow(image: "ReadingMusic", title: "some title", description: "some description", count: "10 Lessons", time: "2 Hours")
+        HomeViewRow(image: "ReadingMusic", title: "some title", description: "some description", count: "10 Lessons")
     }
 }
