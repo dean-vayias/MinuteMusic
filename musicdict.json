@@ -1,13 +1,6 @@
-[{
-    [
-      {
-        "term": "jazz",
-        "definition": "A genre of music that originated in the African-American communities of New Orleans. It incorporates elements from blues, ragtime, and European music traditions."
-      },
-      {
-        "term": "pop",
-        "definition": "A genre of music that is defined by popular culture."
-      }
-    ]
-
-}]
+[
+  {
+    "term": "jazz",
+    "definition": "A genre of music that originated in the African-American communities of New Orleans. It incorporates elements from blues, ragtime, and European music traditions."
+  }
+]
