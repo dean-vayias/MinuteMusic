@@ -21,6 +21,7 @@
 		50071CB229FF398800737366 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50071CB129FF398800737366 /* TestView.swift */; };
 		503806BF2B339C2A004871CD /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503806BE2B339C2A004871CD /* GameView.swift */; };
 		5041681F2A06EFFB001152A0 /* TestResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5041681E2A06EFFB001152A0 /* TestResultView.swift */; };
+		5098E11B2B4292A900865946 /* MusicDictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5098E11A2B4292A900865946 /* MusicDictView.swift */; };
 		50FE063729F87BE000217450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE063629F87BE000217450 /* ContentView.swift */; };
 		50FE063929F8DD4B00217450 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FE063829F8DD4B00217450 /* ContentViewRow.swift */; };
 /* End PBXBuildFile section */
@@ -41,6 +42,7 @@
 		50071CB129FF398800737366 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		503806BE2B339C2A004871CD /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		5041681E2A06EFFB001152A0 /* TestResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultView.swift; sourceTree = "<group>"; };
+		5098E11A2B4292A900865946 /* MusicDictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDictView.swift; sourceTree = "<group>"; };
 		50FE063629F87BE000217450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		50FE063829F8DD4B00217450 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				50071CAD29FDC05800737366 /* CodeTextView.swift */,
 				50071CAF29FF1A1200737366 /* RectangleCard.swift */,
 				503806BE2B339C2A004871CD /* GameView.swift */,
+				5098E11A2B4292A900865946 /* MusicDictView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				50060B6B29E79E85007DC49C /* HomeView.swift in Sources */,
 				50060B8729F62447007DC49C /* HomeViewRow.swift in Sources */,
 				50FE063729F87BE000217450 /* ContentView.swift in Sources */,
+				5098E11B2B4292A900865946 /* MusicDictView.swift in Sources */,
 				50071CAA29FC78AB00737366 /* ContentDetailView.swift in Sources */,
 				503806BF2B339C2A004871CD /* GameView.swift in Sources */,
 				50060B6929E79E85007DC49C /* LearningApp.swift in Sources */,

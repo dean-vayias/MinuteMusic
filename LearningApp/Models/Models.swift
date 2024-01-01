@@ -48,3 +48,10 @@ struct Question: Decodable, Identifiable {
     var correctIndex: Int
     var answers: [String]
 }
+
+struct MusicTerm: Decodable, Identifiable {
+    var id: Int
+    var term: String
+    var definition: String
+}
+

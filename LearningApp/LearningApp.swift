@@ -28,6 +28,15 @@ struct LearningApp: App {
                         Text("Game")
                     }
                     .padding(.bottom, 10) // Add padding as needed
+
+                // Tab 3: MusicDictView
+                MusicDictView()
+                    .environmentObject(ContentModel()) // If MusicDictView requires ContentModel
+                    .tabItem {
+                        Image(systemName: "music.note")
+                        Text("Music Dictionary")
+                    }
+                    .padding(.bottom, 10) // Add padding as needed
             }
             .onAppear {
                 // Adjust tab bar appearance globally

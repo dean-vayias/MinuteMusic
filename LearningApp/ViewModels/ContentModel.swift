@@ -31,72 +31,119 @@ class ContentModel: ObservableObject {
     @Published var currentContentSelected:Int?
     @Published var currentTestSelected:Int?
     
+    // List of music terms
+    @Published var musicTerms = [MusicTerm]()
     
     init() {
-        
-        
-        
         // Download remote json file and parse data
         getRemoteData()
+        
+        // Load music dictionary data
+        loadMusicDictData {
+            // Handle any additional setup or actions after music dictionary data is loaded
+        }
     }
+
     
     // MARK: - Data methods
     
     func getRemoteData() {
-        
         // String path
         let urlString = "https://dean-vayias.github.io/MinuteMusic/data2.json"
         
         // Create a url object
-        let url = URL(string: urlString)
-        
-        guard url != nil else {
-            // Couldn't create url
-            return
-        }
-        
-        // Create a URLRequest object
-        let request = URLRequest(url: url!)
-        
-        // Get the session and kick off the task
-        let session = URLSession.shared
-        
-        let dataTask = session.dataTask(with: request) { (data, response, error) in
+        if let url = URL(string: urlString) {
+            let urlRequest = URLRequest(url: url)
             
-            // Check if there's an error
-            guard error == nil else {
-                // There was an error
-                return
-            }
-            
-            do {
-                // Create json decoder
-                let decoder = JSONDecoder()
-                
-                // Decode
-                let modules = try decoder.decode([Module].self, from: data!)
-                
-                DispatchQueue.main.async {
-                    
-                    // Append parsed modules into modules property
-                    self.modules += modules
+            // Create a URLSession task for asynchronous loading
+            let task = URLSession.shared.dataTask(with: urlRequest) { data, response, error in
+                // Handle errors
+                guard error == nil else {
+                    print("Error loading remote data: \(error!)")
+                    return
                 }
                 
+                // Ensure data is not nil
+                guard let data = data else {
+                    print("No data received")
+                    return
+                }
+                
+                do {
+                    // Create JSON decoder
+                    let decoder = JSONDecoder()
+                    
+                    // Decode remote data
+                    let modules = try decoder.decode([Module].self, from: data)
+                    
+                    DispatchQueue.main.async {
+                        // Append parsed modules into modules property
+                        self.modules += modules
+                    }
+                } catch {
+                    // Handle error loading or parsing remote data
+                    print("Error loading or parsing remote data: \(error)")
+                }
             }
-            catch {
-                // Couldn't parse json
-            }
+            
+            // Start the URLSession task
+            task.resume()
         }
-        
-        // Kick off data task
-        dataTask.resume()
-        
     }
+
+    // MARK: - Music Dictionary Data Methods
     
-    // MARK: - Module navigation methods
-    
-    func beginModule(_ moduleid:Int) {
+    func loadMusicDictData(completion: @escaping () -> Void) {
+        // String path for the music dictionary JSON file
+        let musicDictUrlString = "https://dean-vayias.github.io/MinuteMusic/musicdict.json"
         
+        // Create a URL object for the music dictionary
+        if let musicDictUrl = URL(string: musicDictUrlString) {
+            let urlRequest = URLRequest(url: musicDictUrl)
+            
+            // Create a URLSession task for asynchronous loading
+            let task = URLSession.shared.dataTask(with: urlRequest) { data, response, error in
+                // Handle errors
+                guard error == nil else {
+                    print("Error loading music dictionary data: \(error!)")
+                    return
+                }
+                
+                // Ensure data is not nil
+                guard let data = data else {
+                    print("No data received")
+                    return
+                }
+                do {
+                    // Create JSON decoder
+                    let decoder = JSONDecoder()
+                    
+                    // Decode music dictionary data
+                    let musicTerms = try decoder.decode([MusicTerm].self, from: data)
+                    
+                    DispatchQueue.main.async {
+                        // Clear existing musicTerms before updating
+                        self.musicTerms.removeAll()
+                        
+                        // Update the musicTerms property
+                        self.musicTerms += musicTerms
+                        completion() // Call the completion handler when data loading is completed
+                    }
+                } catch {
+                    // Handle error loading or parsing music dictionary data
+                    print("Error loading or parsing music dictionary data: \(error)")
+                }
+            }
+            
+            // Start the URLSession task
+            task.resume()
+        }
+    }
+
+
+    // MARK: - Module navigation methods
+
+    func beginModule(_ moduleid:Int) {
         // Find the index for this module id
         for index in 0..<modules.count {
             
@@ -111,9 +158,8 @@ class ContentModel: ObservableObject {
         // Set the current module
         currentModule = modules[currentModuleIndex]
     }
-    
+
     func beginLesson(_ lessonIndex:Int) {
-        
         // Check that the lesson index is within range of module lessons
         if lessonIndex < currentModule!.content.lessons.count {
             currentLessonIndex = lessonIndex
@@ -125,9 +171,8 @@ class ContentModel: ObservableObject {
         // Set the current lesson
         currentLesson = currentModule!.content.lessons[currentLessonIndex]
     }
-    
+
     func nextLesson() {
-        
         // Advance the lesson index
         currentLessonIndex += 1
         
@@ -143,18 +188,16 @@ class ContentModel: ObservableObject {
             currentLesson = nil
         }
     }
-    
+
     func hasNextLesson() -> Bool {
-        
         guard currentModule != nil else {
             return false
         }
         
         return (currentLessonIndex + 1 < currentModule!.content.lessons.count)
     }
-    
+
     func beginTest(_ moduleId:Int) {
-        
         // Set the current module
         beginModule(moduleId)
         
@@ -166,9 +209,8 @@ class ContentModel: ObservableObject {
             currentQuestion = currentModule!.test.questions[currentQuestionIndex]
         }
     }
-    
+
     func nextQuestion() {
-        
         // Advance the question index
         currentQuestionIndex += 1
         
@@ -183,6 +225,5 @@ class ContentModel: ObservableObject {
             currentQuestionIndex = 0
             currentQuestion = nil
         }
-        
     }
 }
