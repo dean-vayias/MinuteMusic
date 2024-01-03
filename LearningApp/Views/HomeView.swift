@@ -28,7 +28,7 @@ struct HomeView: View {
                                 NavigationLink(destination: TestView().onAppear(perform: {
                                     model.beginTest(module.id)
                                 }), tag: module.id, selection: $model.currentTestSelected) {
-                                    HomeViewRow(image: module.test.image, title: "\(module.category) Quiz", description: module.test.description, count: "\(module.test.questions.count) Lessons")
+                                    HomeViewRow(image: module.test.image, title: "\(module.category) Quiz", description: module.test.description, count: "\(module.test.questions.count) Questions")
                                 }
                             }
                             .padding(.bottom, 10)
