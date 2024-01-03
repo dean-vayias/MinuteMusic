@@ -518,8 +518,19 @@
     "id": 104,
     "term": "Piccolo",
     "definition": "A small transverse flute with a high, bright, and piercing sound. The piccolo is about half the size of a standard flute and is often used to add brilliance and emphasis to the upper registers of an ensemble, especially in marching bands and orchestras."
+  },
+  {
+    "id": 105,
+    "term": "Chromatic scale",
+    "definition": "A musical scale consisting of all twelve pitches in an octave, including both the natural and sharp or flat notes. The chromatic scale provides a complete set of semitones, allowing for maximum expressiveness and versatility in composition and improvisation."
+  },
+  {
+    "id": 106,
+    "term": "Dotted note",
+    "definition": "A musical note with a dot placed to the right of its notehead, extending its duration by half. The dot adds half of the original note's value, contributing to rhythmic variety and creating a sense of flow in musical passages."
   }
 ]
+
 
 
 
