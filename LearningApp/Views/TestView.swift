@@ -44,7 +44,7 @@ struct TestView: View {
                             } label: {
                                 
                                 ZStack {
-                                
+                                    
                                     if submitted == false {
                                         RectangleCard(color: index == selectedAnswerIndex ? .gray : .white )
                                             .frame(height: 48)
@@ -143,7 +143,7 @@ struct TestView: View {
                     .padding()
                 }
                 .disabled(selectedAnswerIndex == nil)
-
+                
             }
             .navigationBarTitle("\(model.currentModule?.category ?? "") Test")
             
@@ -159,19 +159,17 @@ struct TestView: View {
     }
     
     var buttonText: String {
-        
         // Check if answer has been submitted
         if submitted == true {
-            if model.currentQuestionIndex + 1 == model.currentModule!.test.questions.count {
+            if let currentModule = model.currentModule,
+               model.currentQuestionIndex + 1 == currentModule.test.questions.count {
                 // This is the last question
                 return "Finish"
-            }
-            else {
+            } else {
                 // There is a next question
                 return "Next"
             }
-        }
-        else {
+        } else {
             return "Submit"
         }
     }
