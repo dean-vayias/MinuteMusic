@@ -331,12 +331,6 @@
 				"explanation": "Embark on a captivating journey through the lively streets of New Orleans as we explore the origins, instruments, and improvisational language that define the mesmerizing world of Jazz."
 			},
 			{
-				"id": 1,
-				"title": "Introduction to Instruments",
-				"video": "introtoinstruments.mp4",
-				"explanation": "Introduction to various instrument families, including strings, woodwinds, brass, and percussion, providing an overview of their unique sounds and roles."
-			},
-			{
 				"id": 2,
 				"title": "Discovering Classical Music",
 				"video": "discoveringclassicalmusic.mp4",
