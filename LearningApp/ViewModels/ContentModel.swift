@@ -114,6 +114,7 @@ class ContentModel: ObservableObject {
                     print("No data received")
                     return
                 }
+                
                 do {
                     // Create JSON decoder
                     let decoder = JSONDecoder()
@@ -122,11 +123,8 @@ class ContentModel: ObservableObject {
                     let musicTerms = try decoder.decode([MusicTerm].self, from: data)
                     
                     DispatchQueue.main.async {
-                        // Clear existing musicTerms before updating
-                        self.musicTerms.removeAll()
-                        
-                        // Update the musicTerms property
-                        self.musicTerms += musicTerms
+                        // Update the musicTerms property directly
+                        self.musicTerms = musicTerms
                         completion() // Call the completion handler when data loading is completed
                     }
                 } catch {
@@ -139,6 +137,7 @@ class ContentModel: ObservableObject {
             task.resume()
         }
     }
+
 
 
     // MARK: - Module navigation methods
