@@ -1,7 +1,536 @@
 [
-    {
-        "id": 0,
-        "term": "Jazz",
-        "definition": "A genre of music that originated in the African-American communities of New Orleans. It incorporates elements from blues, ragtime, and European music traditions."
-    }
+  {
+    "id": 1,
+    "term": "jazz",
+    "definition": "A genre of music that originated in the lively streets of New Orleans, characterized by rhythmic conversation, improvisation, and a fusion of African rhythms, European harmony, and the spirit of American culture."
+  },
+  {
+    "id": 2,
+    "term": "improvisation",
+    "definition": "The act of creating or performing spontaneously without preparation, often characterized by creativity and freedom of expression."
+  },
+  {
+    "id": 3,
+    "term": "syncopation",
+    "definition": "A musical technique where accents or emphasis are placed on weak beats or between beats, creating a distinctive rhythmic pattern."
+  },
+  {
+    "id": 4,
+    "term": "sonata",
+    "definition": "A classical musical structure consisting of three main sections: exposition, development, and recapitulation, providing a framework for instrumental compositions."
+  },
+  {
+    "id": 5,
+    "term": "power chord",
+    "definition": "A two-note chord consisting of the root note and the fifth, commonly used in rock music for its raw and powerful sound."
+  },
+  {
+    "id": 6,
+    "term": "blues",
+    "definition": "A genre of music expressing life's hardships and triumphs, featuring emotive guitar, harmonica, and vocals, capturing the soulful essence of the American experience."
+  },
+  {
+    "id": 7,
+    "term": "pop music",
+    "definition": "Short for popular music, a genre characterized by accessibility, catchy lyrics, and diverse influences, aiming for universal appeal."
+  },
+  {
+    "id": 8,
+    "term": "fusion genres",
+    "definition": "Musical styles that celebrate diversity, blending different genres, cultures, and instruments to create something entirely new and unique."
+  },
+  {
+    "id": 9,
+    "term": "ambient",
+    "definition": "A genre of music characterized by its atmospheric and abstract qualities, often creating a background or mood rather than a structured melody."
+  },
+  {
+    "id": 10,
+    "term": "lo-fi hip-hop",
+    "definition": "A subgenre of hip-hop known for its gritty authenticity, characterized by a relaxed and unpolished sound, often used for study or relaxation."
+  },
+  {
+    "id": 11,
+    "term": "riff",
+    "definition": "A short, repeated musical phrase or pattern, typically played on a guitar, creating a recognizable and memorable element in a song."
+  },
+  {
+    "id": 12,
+    "term": "crescendo",
+    "definition": "A gradual increase in loudness or intensity in a musical passage, often leading to a climactic point."
+  },
+  {
+    "id": 13,
+    "term": "staccato",
+    "definition": "A musical articulation indicating that each note should be played sharply and distinctly, with a short duration."
+  },
+  {
+    "id": 14,
+    "term": "solo",
+    "definition": "A musical passage or performance by a single instrument or voice, often showcasing the skill and expression of the performer."
+  },
+  {
+    "id": 15,
+    "term": "melisma",
+    "definition": "A vocal technique where a single syllable is sung over multiple notes, adding ornamentation and expressiveness to the melody."
+  },
+  {
+    "id": 16,
+    "term": "counterpoint",
+    "definition": "The combination of independent melodies that are harmonically interdependent, creating a complex and layered musical texture."
+  },
+  {
+    "id": 17,
+    "term": "tempo",
+    "definition": "The speed or pace at which a piece of music is performed, often indicated by terms like allegro (fast) or adagio (slow)."
+  },
+  {
+    "id": 18,
+    "term": "cadence",
+    "definition": "A sequence of chords that brings an end to a phrase, section, or piece of music, providing a sense of resolution or closure."
+  },
+  {
+    "id": 19,
+    "term": "modulation",
+    "definition": "A change in key within a piece of music, often used to create variety, tension, or a sense of movement."
+  },
+  {
+    "id": 20,
+    "term": "polyphony",
+    "definition": "Musical texture characterized by the simultaneous sounding of multiple independent melodic lines, creating rich and intricate harmonies."
+  },
+  {
+    "id": 21,
+    "term": "staff",
+    "definition": "A set of five horizontal lines and four spaces on which musical notes and symbols are written to represent pitch and duration."
+  },
+  {
+    "id": 22,
+    "term": "clef",
+    "definition": "A symbol placed at the beginning of the staff to indicate the pitch of the notes; common clefs include treble, bass, and alto."
+  },
+  {
+    "id": 23,
+    "term": "pitch",
+    "definition": "The perceived highness or lowness of a sound, determined by the frequency of the musical vibrations."
+  },
+  {
+    "id": 24,
+    "term": "intervals",
+    "definition": "The distance in pitch between two notes, measured by the number of letter names and their alterations."
+  },
+  {
+    "id": 25,
+    "term": "note duration",
+    "definition": "The length of time a musical note is sounded, indicated by different symbols such as whole notes, half notes, and quarter notes."
+  },
+  {
+    "id": 26,
+    "term": "steps",
+    "definition": "A movement from one note to an adjacent note, either ascending (step up) or descending (step down)."
+  },
+  {
+    "id": 27,
+    "term": "skips",
+    "definition": "A movement from one note to a non-adjacent note, creating a larger interval in pitch."
+  },
+  {
+    "id": 28,
+    "term": "key signatures",
+    "definition": "Symbols placed at the beginning of a staff indicating the key of the music and specifying which notes are to be consistently raised or lowered."
+  },
+  {
+    "id": 29,
+    "term": "dynamics",
+    "definition": "The varying degrees of loudness and softness in music, represented by symbols such as pianissimo (very soft) and forte (loud)."
+  },
+  {
+    "id": 30,
+    "term": "articulation",
+    "definition": "The manner in which notes are played or sung, including staccato (short and detached) or legato (smooth and connected)."
+  },
+  {
+    "id": 31,
+    "term": "meter",
+    "definition": "The organization of beats into regular groups, commonly expressed as time signatures like 4/4 (four beats per measure)."
+  },
+  {
+    "id": 32,
+    "term": "rests",
+    "definition": "Symbols indicating periods of silence in music, with different durations such as whole rests, half rests, and quarter rests."
+  },
+  {
+    "id": 33,
+    "term": "majors and minors",
+    "definition": "Musical scales characterized by specific patterns of whole and half steps, with major scales having a brighter sound and minor scales a more melancholic feel."
+  },
+  {
+    "id": 34,
+    "term": "dynamic markings",
+    "definition": "Symbols used to indicate the volume at which a passage of music should be played, including crescendo (gradually louder) and decrescendo (gradually softer)."
+  },
+  {
+    "id": 35,
+    "term": "repeat signs",
+    "definition": "Symbols indicating that a section of music should be played again, enhancing the structure and form of a piece."
+  },
+  {
+    "id": 36,
+    "term": "phrase",
+    "definition": "A musical unit or segment, often resembling a complete musical idea, marked by a pause or a change in the melody."
+  },
+  {
+    "id": 37,
+    "term": "ritardando",
+    "definition": "A gradual slowing down of tempo in a musical piece, adding expressiveness and emphasis to the conclusion."
+  },
+  {
+    "id": 38,
+    "term": "ornaments",
+    "definition": "Decorative musical embellishments, such as trills, grace notes, and mordents, that enhance the expressive quality of a composition."
+  },
+  {
+    "id": 39,
+    "term": "timbre",
+    "definition": "The unique quality or color of a sound, distinguishing one instrument or voice from another, contributing to the overall character of music."
+  },
+  {
+    "id": 40,
+    "term": "ensemble",
+    "definition": "A musical group or collective, typically consisting of multiple instrumentalists or vocalists performing together."
+  },
+  {
+    "id": 41,
+    "term": "soprano",
+    "definition": "The highest vocal range for female singers, often associated with a bright and soaring quality in choral and solo contexts."
+  },
+  {
+    "id": 42,
+    "term": "baritone",
+    "definition": "A male voice type with a range between tenor and bass, known for its rich and resonant quality, suitable for various musical styles."
+  },
+  {
+    "id": 43,
+    "term": "percussion instruments",
+    "definition": "Musical instruments that produce sound through striking, shaking, or scraping, including drums, cymbals, and xylophones."
+  },
+  {
+    "id": 44,
+    "term": "composition",
+    "definition": "The process of creating a musical piece, involving the arrangement and organization of musical elements such as melody, harmony, and rhythm."
+  },
+  {
+    "id": 45,
+    "term": "arrangement",
+    "definition": "The adaptation or reorganization of a musical piece for a specific instrumentation or performance context, often done to enhance the overall sound."
+  },
+  {
+    "id": 46,
+    "term": "audio production",
+    "definition": "The process of recording, editing, and mixing audio elements to create a final musical product, involving technical skills and artistic creativity."
+  },
+  {
+    "id": 47,
+    "term": "falsetto",
+    "definition": "A vocal technique where a singer produces notes in a higher register than their normal vocal range, often with a lighter and breathier quality."
+  },
+  {
+    "id": 48,
+    "term": "ostinato",
+    "definition": "A repetitive musical motif or pattern that persists throughout a section or an entire composition, adding rhythmic and melodic consistency."
+  },
+  {
+    "id": 49,
+    "term": "polyrhythm",
+    "definition": "The simultaneous use of multiple rhythms in a musical piece, creating intricate and layered rhythmic patterns."
+  },
+  {
+    "id": 50,
+    "term": "trill",
+    "definition": "A rapid alternation between two adjacent notes, often executed by rapidly moving fingers or vocal modulation, adding ornamentation to the music."
+  },
+  {
+    "id": 51,
+    "term": "modal scale",
+    "definition": "A musical scale derived from a specific arrangement of whole and half steps, commonly associated with modal jazz and folk traditions."
+  },
+  {
+    "id": 52,
+    "term": "arpeggio",
+    "definition": "The playing of the notes of a chord in a broken or sequential manner, creating a flowing and cascading effect in both instrumental and vocal contexts."
+  },
+  {
+    "id": 53,
+    "term": "french horn",
+    "definition": "A brass instrument with a coiled shape, featuring rotary valves and a flared bell, known for its warm and mellow tone, commonly used in orchestras and brass ensembles."
+  },
+  {
+    "id": 54,
+    "term": "trumpet",
+    "definition": "A brass instrument with a straight cylindrical tube and a flared bell, typically featuring three valves, known for its bright and powerful sound, widely used in various musical genres."
+  },
+  {
+    "id": 55,
+    "term": "clarinet",
+    "definition": "A woodwind instrument with a single-reed mouthpiece, cylindrical bore, and a flared bell, producing a rich and versatile sound, often used in classical, jazz, and contemporary music."
+  },
+  {
+    "id": 56,
+    "term": "trombone",
+    "definition": "A brass instrument with a long cylindrical tube and a flared bell, featuring a slide mechanism for changing pitch, known for its bold and resonant sound, used in various musical genres."
+  },
+  {
+    "id": 57,
+    "term": "flute",
+    "definition": "A woodwind instrument with a high-pitched sound produced by blowing across a mouthpiece, typically made of silver or other metals, widely used in classical and contemporary music."
+  },
+  {
+    "id": 58,
+    "term": "saxophone",
+    "definition": "A versatile woodwind instrument with a single-reed mouthpiece and a conical metal tube, available in various sizes, known for its expressive and soulful sound, used in jazz, classical, and popular music."
+  },
+  {
+    "id": 59,
+    "term": "viola",
+    "definition": "A bowed string instrument slightly larger than a violin, tuned lower, and known for its warm and rich tone, often used in orchestras and chamber music."
+  },
+  {
+    "id": 60,
+    "term": "xylophone",
+    "definition": "A percussion instrument consisting of wooden bars of various lengths, arranged like a keyboard, and played with mallets, producing bright and percussive tones, commonly used in orchestras and ensembles."
+  },
+  {
+    "id": 61,
+    "term": "accordion",
+    "definition": "A portable wind instrument with a keyboard and bellows, allowing the player to produce a full and expressive sound by compressing and expanding the instrument, used in various musical styles."
+  },
+  {
+    "id": 62,
+    "term": "double bass",
+    "definition": "The largest and lowest-pitched bowed string instrument in the modern symphony orchestra, known for its deep and resonant tones, providing a foundational bass line in many musical genres."
+  },
+  {
+    "id": 63,
+    "term": "alto saxophone",
+    "definition": "A member of the saxophone family, slightly smaller than the tenor saxophone, known for its mellow and expressive tone, commonly used in jazz, classical, and popular music."
+  },
+  {
+    "id": 64,
+    "term": "tenor saxophone",
+    "definition": "A medium-sized member of the saxophone family, with a range between the alto and the larger baritone saxophone, known for its versatile and rich sound, widely used in various music genres."
+  },
+  {
+    "id": 65,
+    "term": "bassoon",
+    "definition": "A double-reed woodwind instrument with a distinctive long, curved shape, known for its deep and sonorous tone, often used in orchestras and chamber ensembles."
+  },
+  {
+    "id": 66,
+    "term": "bass clarinet",
+    "definition": "A lower-pitched member of the clarinet family, featuring a curved neck and a larger size, known for its deep and resonant sound, used in classical and contemporary music."
+  },
+  {
+    "id": 67,
+    "term": "tenor voice",
+    "definition": "A male vocal range between countertenor and baritone, known for its versatility and often used in a variety of musical genres, including classical, pop, and rock."
+  },
+  {
+    "id": 68,
+    "term": "baritone saxophone",
+    "definition": "The largest member of the saxophone family, producing a deep and robust sound, commonly used in jazz, rock, and other contemporary music genres."
+  },
+  {
+    "id": 69,
+    "term": "bass voice",
+    "definition": "The lowest-pitched vocal range, typically possessed by male singers, known for its resonance and often used to provide a foundational depth in choral and vocal performances."
+  },
+  {
+    "id": 70,
+    "term": "oboe",
+    "definition": "A double-reed woodwind instrument with a conical bore, known for its distinctively bright and penetrating tone, frequently used in orchestras and chamber ensembles."
+  },
+  {
+    "id": 71,
+    "term": "contrabassoon",
+    "definition": "A larger and lower-pitched version of the bassoon, producing deep and resonant tones, often employed in orchestras to provide a powerful bass presence."
+  },
+  {
+    "id": 72,
+    "term": "marching French horn",
+    "definition": "A modified version of the French horn designed for use in marching bands, featuring a compact and lightweight design for ease of carrying during performances."
+  },
+  {
+    "id": 73,
+    "term": "mellophone",
+    "definition": "A brass instrument with a bell facing forward, similar to a French horn, commonly used in marching bands for its projection and bright sound."
+  },
+  {
+    "id": 74,
+    "term": "soprano saxophone",
+    "definition": "A smaller member of the saxophone family, higher in pitch than the alto saxophone, known for its bright and clear tone, used in various musical genres."
+  },
+  {
+    "id": 75,
+    "term": "alto flute",
+    "definition": "A transverse flute with a lower pitch than the standard flute, known for its mellow and rich tone, often used in orchestral and chamber music."
+  },
+  {
+    "id": 76,
+    "term": "euphonium",
+    "definition": "A brass instrument similar to the baritone horn, featuring a conical bore and a mellower tone, often used in concert bands and brass ensembles."
+  },
+  {
+    "id": 77,
+    "term": "piccolo trumpet",
+    "definition": "A smaller and higher-pitched version of the trumpet, known for its bright and piercing sound, commonly used in Baroque and early music."
+  },
+  {
+    "id": 78,
+    "term": "trombone",
+    "definition": "A brass instrument with a telescoping slide mechanism, producing a smooth and resonant sound, widely used in orchestras, jazz, and various ensembles."
+  },
+  {
+    "id": 79,
+    "term": "sousaphone",
+    "definition": "A type of tuba designed for marching bands, featuring a forward-facing bell and a coiled shape for easier carrying and projection of sound."
+  },
+  {
+    "id": 80,
+    "term": "baritone horn",
+    "definition": "A brass instrument with a similar shape to a euphonium but with a narrower bore, producing a rich and mellow sound, often used in brass bands and concert bands."
+  },
+  {
+    "id": 81,
+    "term": "contrabass clarinet",
+    "definition": "A larger and lower-pitched version of the clarinet, known for its deep and resonant tone, often used in concert bands and contemporary music."
+  },
+  {
+    "id": 82,
+    "term": "timpani",
+    "definition": "A set of kettle drums, typically played in pairs, with varying pitches and sizes, played using mallets to produce distinct, resonant tones."
+  },
+  {
+    "id": 83,
+    "term": "glockenspiel",
+    "definition": "A metal percussion instrument with tuned metal bars and a bright, bell-like sound, commonly used in orchestras and marching bands."
+  },
+  {
+    "id": 84,
+    "term": "vibraphone",
+    "definition": "A musical instrument in the percussion family with tuned metal bars and motor-driven fans, creating a vibrato effect in the sound."
+  },
+  {
+    "id": 85,
+    "term": "cabasa",
+    "definition": "A percussion instrument consisting of a metal cylinder covered with a beaded metal chain, producing a rattling sound when shaken or rotated."
+  },
+  {
+    "id": 86,
+    "term": "bongos",
+    "definition": "A pair of small, hand-held drums of Afro-Cuban origin, played with the fingers and palms, producing distinct high and low tones."
+  },
+  {
+    "id": 87,
+    "term": "chimes",
+    "definition": "Tubular bells or metal tubes of different lengths, struck with a mallet to produce melodic tones, commonly used in orchestras and wind ensembles."
+  },
+  {
+    "id": 88,
+    "term": "triangle",
+    "definition": "A metal percussion instrument consisting of a steel rod bent into a triangular shape, producing a high-pitched, ringing sound when struck with a metal beater."
+  },
+  {
+    "id": 89,
+    "term": "conga drums",
+    "definition": "Tall, narrow, single-headed drums of Afro-Cuban origin, played with the hands, fingers, and palms, used in Latin American music and beyond."
+  },
+  {
+    "id": 90,
+    "term": "tambourine",
+    "definition": "A shallow, hand-held drum with metal jingles, played by striking or shaking, commonly used in various musical genres and folk traditions."
+  },
+  {
+    "id": 91,
+    "term": "steelpan",
+    "definition": "A musical instrument originating from Trinidad and Tobago, made from an oil drum and tuned to produce melodic tones, known for its use in steelpan ensembles."
+  },
+  {
+    "id": 92,
+    "term": "snare drum",
+    "definition": "A shallow drum with strands of snares stretched across the drumhead, producing a sharp, buzzing sound when the drum is struck."
+  },
+  {
+    "id": 93,
+    "term": "bass drum",
+    "definition": "A large drum with a low pitch, typically played with a foot pedal, commonly used to provide a deep, foundational beat in various musical genres."
+  },
+  {
+    "id": 94,
+    "term": "maracas",
+    "definition": "Pair of handheld percussion instruments, usually made of gourds or plastic, filled with seeds or beads, producing a shaking or rattling sound when played."
+  },
+  {
+    "id": 95,
+    "term": "synthesizer",
+    "definition": "An electronic musical instrument that generates and manipulates sound through electrical signals, allowing for the creation of a wide range of tones and effects."
+  },
+  {
+    "id": 96,
+    "term": "castanets",
+    "definition": "Pair of hand-held percussion instruments, typically made of hardwood or plastic, clicked together to produce a rhythmic, clacking sound."
+  },
+  {
+    "id": 97,
+    "term": "wood block",
+    "definition": "A solid block of wood with a slit or groove, struck with a mallet to produce a sharp, resonant percussive sound, often used in orchestras and marching bands."
+  },
+  {
+    "id": 98,
+    "term": "cuíca",
+    "definition": "A Brazilian percussion instrument consisting of a friction drum with a rod attached to the drumhead, creating a distinctive pitch-bending sound when rubbed."
+  },
+  {
+    "id": 99,
+    "term": "rainstick",
+    "definition": "A long, hollow tube filled with small pebbles or beans, producing a sound resembling falling rain when the instrument is turned upside down."
+  },
+  {
+    "id": 100,
+    "term": "tabla",
+    "definition": "A pair of hand-played drums from India, consisting of a small, high-pitched drum (dayan) and a larger, deeper drum (bayan), often used in classical and folk music."
+  },
+  {
+    "id": 101,
+    "term": "gong",
+    "definition": "A large, suspended metal disc with a raised center, struck with a mallet to produce a deep, resonant sound, commonly used in orchestras and ceremonial music."
+  },
+  {
+    "id": 102,
+    "term": "tuba",
+    "definition": "The largest and lowest-pitched brass instrument in the orchestra, characterized by a wide, conical bore and a deep, rich sound. The tuba plays a fundamental role in brass ensembles and orchestras, providing a powerful and resonant bass foundation."
+  },
+  {
+    "id": 103,
+    "term": "cornet",
+    "definition": "A brass instrument similar to the trumpet but with a more conical bore. The cornet is known for its mellower and more mellow tone, making it a versatile choice in various musical genres, including brass bands and jazz ensembles."
+  },
+  {
+    "id": 104,
+    "term": "piccolo",
+    "definition": "A small transverse flute with a high, bright, and piercing sound. The piccolo is about half the size of a standard flute and is often used to add brilliance and emphasis to the upper registers of an ensemble, especially in marching bands and orchestras."
+  }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
