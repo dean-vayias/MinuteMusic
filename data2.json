@@ -67,7 +67,7 @@
 		"description": "Test your knowledge of Reading Music.",
 		"questions": [{
 				"id": 0,
-				"content": "Which of the following are the two types of clefs?",
+				"content": "Which of the following are two types of clefs?",
 				"correctIndex": 1,
 				"answers": [
 					"Symphonic and Bass",
